@@ -23,9 +23,7 @@ li {
   border-radius: 4px;
 }
 .navigation {
-  position: fixed;
   float: left;
-  width: 250px;
   height: 100%;
   background-color: #0071bc;
 }
@@ -56,7 +54,7 @@ li {
 .navigation li.item {
   margin-bottom: 8px;
   padding-bottom: 8px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #fff;
 }
 .navigation li.item a {
   color: #bbb;
@@ -84,6 +82,7 @@ li {
   font-size: 0.7em;
   padding: 2px 4px;
   float: right;
+  margin-left: 10px;
 }
 .navigation li.item .subtitle {
   margin-top: 10px;
@@ -101,7 +100,7 @@ li {
 }
 .main {
   padding: 20px 20px;
-  margin-left: 250px;
+  overflow: hidden;
 }
 .main .page-title {
   display: none;
