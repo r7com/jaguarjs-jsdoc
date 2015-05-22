@@ -70,6 +70,7 @@ li {
 }
 .navigation li.item .title a {
   color: #e1e1e1;
+  margin-right: 60px;
 }
 .navigation li.item .title a:hover {
   color: #fff;
@@ -81,8 +82,9 @@ li {
   color: #000;
   font-size: 0.7em;
   padding: 2px 4px;
-  float: right;
-  margin-left: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .navigation li.item .subtitle {
   margin-top: 10px;
