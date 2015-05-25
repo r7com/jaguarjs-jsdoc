@@ -45,9 +45,14 @@ $(function () {
     // Auto resizing on navigation
     var _onResize = function () {
         var height = $(window).height();
-        var $el = $('.navigation');
+        var $elNav = $('.navigation');
+        var $elMain = $('.main');
 
-        $el.height(height).find('.list').height(height - 133);
+        if ($elMain.height() >= height ) {
+          height = $elMain.height();
+        }
+
+        $elNav.height(height).find('.list').height(height - 133);
     };
 
     $(window).on('resize', _onResize);
